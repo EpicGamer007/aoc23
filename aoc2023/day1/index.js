@@ -9,7 +9,7 @@ fs.readFile(join(__dirname, "input.txt"), "utf8", (err, data) => {
 	const lines = data.split("\n");
 	if(lines[lines.length - 1] == "") lines.pop();
 
-
+    
 	
 	console.log("Part 1: ");
 	console.log("Part 2: ");
