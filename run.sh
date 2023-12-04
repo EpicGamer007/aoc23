@@ -25,6 +25,6 @@ else
 	if [ $1 == "all" ]; then
  		run_all
    	else
-		node ./aoc2022/day$1
+		node ./aoc2023/day$1
   	fi
 fi
